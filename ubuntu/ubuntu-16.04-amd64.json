@@ -279,6 +279,7 @@
       "expect_disconnect": true,
       "scripts": [
         "scripts/update.sh",
+        "scripts/desktop_environment.sh",
         "../_common/sshd.sh",
         "scripts/networking.sh",
         "scripts/sudoers.sh",
