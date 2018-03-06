@@ -15,3 +15,5 @@ packer build -only=virtualbox-iso $BOX_JSON
 vagrant box remove $BOX_NAME || true
 vagrant box add $BOX_NAME $BOX_PATH
 
+# https://help.github.com/articles/configuring-a-remote-for-a-fork/
+# https://help.github.com/articles/syncing-a-fork/
